@@ -5,7 +5,7 @@ release_branches:
   - master
 
 pipelines:
-  - verify:
+  - verify
 
 subscriptions:
   - workload: pull_request_merged:{{github_repo}}:{{release_branch}}:*
